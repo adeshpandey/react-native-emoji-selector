@@ -1,16 +1,10 @@
+import AsyncStorage from '@react-native-async-storage/async-storage';
+import emoji from "emoji-datasource";
 import React, { Component } from "react";
 import {
-  View,
-  Text,
-  StyleSheet,
-  TouchableOpacity,
-  TextInput,
-  Platform,
   ActivityIndicator,
-  AsyncStorage,
-  FlatList
+  FlatList, Platform, StyleSheet, Text, TextInput, TouchableOpacity, View
 } from "react-native";
-import emoji from "emoji-datasource";
 
 export const Categories = {
   all: {
